@@ -1,0 +1,104 @@
+animated-hamburger-menu-icon
+https://tailwindcomponents.com/component/animated-hamburger-menu-icon/landing
+
+Ajouter dexs champs perso à des éléments de menu dans Drupal:
+https://www.drupal.org/project/menu_item_extras
+
+very funny menu:
+https://codepen.io/mr-zouraiz123/pen/PoejKOR
+
+Autres menus: https://freefrontend.com/css-menu/
+
+Perfect Tailwind menu without JAvascript!!!!
+
+https://www.tailwindtoolbox.com/components/megamenu-demo.php#
+
+
+Base page:
+
+http://kaffa.like-themes.com/home-parallax/
+
+work on the parallax effect
+
+Mobile first: we center everything
+
+Header font
+Body font
+Title font
+Button font
+
+Colors
+Chakao-dark-bckg
+Chakao-light-bckg
+Chakao-dark-text
+Chakao-light-text
+Chakao-brand
+Chakao-link
+
+Chakao-base (body text)
+Chakao-medium
+
+Header: 50% opaity black
+
+  colors: {
+      chakao: {
+        base: '#2e2438',  // Darker variant
+        light: '#5c4a75',  // Lighter variant
+        base: '#433253',  // Base color
+        medium: '#4c3a62',  // Medium variant
+        bckg: '#e4e2eb',  // Background variant
+      },
+
+
+Alternance of Dark/Light/Base/Medium 'select in drupal'
+
+http://preview.themeforest.net/item/kaffa-coffee-house-wordpress-theme/full_screen_preview/27288939
+
+See slider 2: there is an overlayer on the picture on the smaller versions but not on bigger screen
+
+assets/images/overlay-lines.png
+http://kaffa.like-themes.com/wp-content/uploads/2020/06/para_07.jpg
+http://kaffa.like-themes.com/wp-content/themes/kaffa/assets/images/overlay-lines.png
+
+
+ background-repeat: repeat-x;
+  background-position: center center;
+  zoom: 1;
+
+
+EILISH
+https://apps.apple.com/us/app/keepassium-keepass-passwords/id1435127111
+
+Each section can have an image or a video background
+
+Sections:
+Dark-text-right: right-justified text (from lg) + left justified image 
+Light-text-right: right-justified text (from lg) + left justified image + white overlay on sm to lg
+
+Dark-text-left: left-justified text (from lg) + right justified image 
+Dark-text-right: right-justified text (from lg) + left justified image 
+
+Dark-text-center: center-justified text (from lg) + center justified image 
+Light-text-center: center-justified text (from lg) + center justified image + white overlay on sm to lg
+
+
+Section elements:
+section title + span class
+Section paragraph
+Max 2 buttons 
+
+Attention
+see 
+http://kaffa.like-themes.com/home-parallax/ the jpeg is right justified even on large/mobile + overlay on mobile
+
+
+Drupal:
+
+Use https://www.drupal.org/project/color_field
+
+Max 2 buttons
+
+videos: integrate Vimeo or local
+
+see http://preview.themeforest.net/item/kaffa-coffee-house-wordpress-theme/full_screen_preview/27288939 see how video is integrated
+
