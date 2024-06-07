@@ -1117,6 +1117,10 @@ select {
   --tw-bg-opacity: 0.5;
 }
 
+.bg-opacity-70 {
+  --tw-bg-opacity: 0.7;
+}
+
 .bg-\[url\(\'img\/lines\.png\'\)\] {
   background-image: url('img/lines.png');
 }
@@ -1327,6 +1331,10 @@ select {
   opacity: 0.8;
 }
 
+.opacity-20 {
+  opacity: 0.2;
+}
+
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
@@ -1337,6 +1345,17 @@ select {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.sepia {
+  --tw-sepia: sepia(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .backdrop-blur-md {
@@ -1461,6 +1480,10 @@ select {
   .lg\:text-left {
     text-align: left;
   }
+
+  .lg\:text-center {
+    text-align: center;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1508,11 +1531,19 @@ select {
     justify-content: flex-end;
   }
 
+  .xl\:justify-center {
+    justify-content: center;
+  }
+
   .xl\:gap-8 {
     gap: 2rem;
   }
 
   .xl\:text-left {
     text-align: left;
+  }
+
+  .xl\:text-center {
+    text-align: center;
   }
 }
