@@ -32,4 +32,17 @@
     }
 
 
+    .bg-transparent {
+        background-color: transparent;
+    }
+    .bg-scrolled {
+       @apply bg-black; /* Example color when scrolled */
+    }
+
+    .parallax {
+    background-attachment: fixed;
+}
+
+
+
 }
