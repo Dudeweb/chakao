@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="./src/simpleParallax.js-master/src/simpleParallax.js"></script>
       <style>
     .caesar-dressing-regular {
   font-family: "Caesar Dressing", system-ui;
@@ -117,13 +118,13 @@
         <h2 class="text-7xl leading-10 mb-4 reenie-beanie-regular"><span class="text-black">LEFT Brownish Café</span> Explore new sensations!</h2>
         <p class="text-lg">Explore new sensations with your morning coffee! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         <button class="mt-8 bg-purple-500 hover:bg-purple-900 text-white font-bold py-4 px-8 text-2xl rounded-full shadow-2xl">
-          Button
+          <a href="https://simpleparallax.com/">Button</a>
         </button>
     
       </div>
 </section>
 
-<section class="light_text_center" style="background-image: url('img/chakao-section-light-right-justg.jpg');">
+<section class="light_text_center simple-parallax" style="background-image: url('img/chakao-section-light-right-justg.jpg');">
   <div class="absolute inset-0 bg-white opacity-50 xl:hidden"></div>
   <div class="relative text-center xl:ml-24 xl:max-w-[50%] p-8">
       <h2 class="text-7xl leading-10 mb-4 reenie-beanie-regular"><span class="text-black">CENTER Brownish Café</span> Explore new sensations!</h2>
@@ -383,8 +384,12 @@
 <script>
     AOS.init();
   </script>
-
-
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          var image = document.querySelector('.parallax-image');
+          new simpleParallax(image);
+      });
+  </script>
 
 </body>
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Example</title>
+    <link rel="stylesheet" href="path/to/your/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.4.0/dist/simpleParallax.min.js"></script>
+</head>
+<body>
+    <section class="dark_text_left relative">
+        <div class="absolute inset-0 bg-black opacity-30 xl:hidden"></div>
+        <img src="img/chakao-section-dark-right-justg.jpg" class="parallax-image" alt="Background Image">
+        <div class="relative text-white text-left xl:text-left xl:ml-24 xl:max-w-[50%] p-8">
+            <h2 class="text-7xl leading-10 mb-4 reenie-beanie-regular"><span class="text-green-400">DARK LEFT Brownish Café</span> Explore new sensations!</h2>
+            <p class="text-lg">Explore new sensations with your morning coffee! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <button class="mt-8 bg-purple-500 hover:bg-purple-900 text-white font-bold py-4 px-8 text-2xl rounded-full shadow-2xl">
+                Button
+            </button>  
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var image = document.querySelector('.parallax-image');
+            new simpleParallax(image);
+        });
+    </script>
+</body>
+</html>
