@@ -36,7 +36,7 @@
         background-color: transparent;
     }
     .bg-scrolled {
-       @apply bg-black; /* Example color when scrolled */
+       @apply bg-black opacity-90; /* Example color when scrolled */
     }
 
     .parallax {

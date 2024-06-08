@@ -878,6 +878,7 @@ select {
 .bg-scrolled {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  opacity: 0.9;
   /* Example color when scrolled */
 }
 
