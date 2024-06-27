@@ -1702,6 +1702,10 @@ h2 {
     display: none;
   }
 
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
   .lg\:w-\[50\%\] {
     width: 50%;
   }
