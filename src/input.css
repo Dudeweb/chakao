@@ -17,12 +17,12 @@
     }
 
     h1 {
-        @apply text-7xl mb-4 text-purple-700;
+        @apply text-2xl lg:text-7xl mt-4 text-purple-700;
     }
 
 
     h2 {
-        @apply text-2xl md:text-5xl mt-4;
+        @apply text-2xl lg:text-5xl mt-4;
 }
 
 

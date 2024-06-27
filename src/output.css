@@ -799,11 +799,18 @@ select {
 }
 
 h1 {
-  margin-bottom: 1rem;
-  font-size: 4.5rem;
-  line-height: 1;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   --tw-text-opacity: 1;
   color: rgb(126 34 206 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
 }
 
 h2 {
@@ -812,7 +819,7 @@ h2 {
   line-height: 2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   h2 {
     font-size: 3rem;
     line-height: 1;
