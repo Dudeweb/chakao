@@ -26,6 +26,11 @@
 }
 
 
+p {
+    @apply mt-4;
+}
+
+
 .light_text_center {
     @apply relative z-0 bg-center flex items-center justify-center;
 }
