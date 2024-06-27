@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+
+    .light_text_center {
+        @apply relative z-0 h-[80vh] bg-center flex items-center justify-center;
+    }
+        
+
+    .light_text_right {
+        @apply relative z-0 h-[80vh] bg-right flex items-center justify-center xl:items-center xl:justify-end;
+    }
+
+
+    .light_text_left {
+        @apply relative z-0 h-[80vh] bg-left flex items-center justify-center xl:items-center xl:justify-start;
+    }
+
+    .dark_text_left {
+        @apply relative z-0 h-[80vh] bg-left flex items-center justify-center xl:items-center xl:justify-start;
+    }
+    
+    .dark_text_center {
+        @apply relative z-0 h-[80vh] bg-center flex items-center justify-center;
+    }
+        
+    .dark_text_right {
+        @apply relative z-0 h-[80vh] bg-right flex items-center justify-center xl:items-center xl:justify-end;
+    }
+
+
+    .bg-transparent {
+        background-color: transparent;
+    }
+    .bg-scrolled {
+       @apply bg-black opacity-90; /* Example color when scrolled */
+    }
+
+    .parallax {
+    background-attachment: fixed;
+    }
+
+    h1 {
+        @apply text-7xl py-3 bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-semibold rounded-lg shadow-md hover:from-purple-600 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75;
+    }
+
+
+    h2 {
+        @apply text-7xl leading-10 mt-4;
+}
+
+}
